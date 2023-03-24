@@ -4,7 +4,7 @@ var server = require('http').Server(app);
 var bodyParser = require("body-parser");
 var expressSession = require('express-session');
 var authentication = require('./authentication');
-var port = 80;
+var port = 3008;
 
 const PASSWORD = 'domisol1'; // Replace your password
 
