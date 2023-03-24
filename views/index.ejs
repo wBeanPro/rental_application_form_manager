@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Bitcoin Wallet Manager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Private Wallet Manager" name="description" />
+    <link href="assets/plugins/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/datatables/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/datatables/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <style>#waiting {display:none;}</style>
+    <script>
+    </script>
+</head>
+<body class="enlarge-menu">
+
+
+<div class="page-wrapper">
+    <!-- Page Content-->
+    <div class="page-content">
+
+        <div class="container-fluid">
+            <!-- Page-Title -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="page-title-box text-center">
+                        <h2>Rental Application Form - Admin Page</h2>
+                    </div><!--end page-title-box-->
+                </div><!--end col-->
+            </div>
+            <!-- end page title end breadcrumb -->
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <div class="upper">
+                        </div>
+
+                        <div class="user text-center">
+                            <div class="profile">
+                                <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" class="rounded-circle" width="80">
+                            </div>
+                        </div>
+                        <div class="mt-5">
+                            <h4 class="mb-0 text-center">Benjamin Tims</h4>
+                            <span class="text-muted d-block mt-2 mb-2 pl-2">elisonterrypro@gmail.com</span>
+                            <span class="text-muted d-block mt-2 mb-2 pl-2">+1 573 317 4257</span>
+                            <span class="text-muted d-block mt-2 mb-2 pl-2"> 167 Roman Dr, Dallas, GA 30157</span>
+                            <span class="text-muted d-block mt-2 mb-2 pl-2">Move in Date: 2023-03-23</span>
+                            <div class="d-flex justify-content-between px-2 mb-2 mt-4">
+                                <button class="btn btn-primary btn-sm btn-detail">View in Detail</button>
+                                <input type="checkbox" data-size="sm" checked data-toggle="toggle" data-on="Approved" data-off="Pending" data-onstyle="success" data-offstyle="danger">
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <div class="upper">
+                        </div>
+
+                        <div class="user text-center">
+                            <div class="profile">
+                                <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" class="rounded-circle" width="80">
+                            </div>
+                        </div>
+                        <div class="mt-5">
+                            <h4 class="mb-0 text-center">Benjamin Tims</h4>
+                            <span class="text-muted d-block mt-2 mb-2 pl-2">elisonterrypro@gmail.com</span>
+                            <span class="text-muted d-block mt-2 mb-2 pl-2">+1 573 317 4257</span>
+                            <span class="text-muted d-block mt-2 mb-2 pl-2"> 167 Roman Dr, Dallas, GA 30157</span>
+                            <span class="text-muted d-block mt-2 mb-2 pl-2">Move in Date: 2023-03-23</span>
+                            <div class="d-flex justify-content-between px-2 mb-2 mt-4">
+                                <button class="btn btn-primary btn-sm btn-detail">View in Detail</button>
+                                <input type="checkbox" checked data-size="sm" data-toggle="toggle" data-on="Approved" data-off="Pending" data-onstyle="success" data-offstyle="danger">
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <div class="upper">
+                        </div>
+                        <div class="user text-center">
+                            <div class="profile">
+                                <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" class="rounded-circle" width="80">
+                            </div>
+                        </div>
+                        <div class="mt-5">
+                            <h4 class="mb-0 text-center">Benjamin Tims</h4>
+                            <span class="text-muted d-block mt-2 mb-2 pl-2">elisonterrypro@gmail.com</span>
+                            <span class="text-muted d-block mt-2 mb-2 pl-2">+1 573 317 4257</span>
+                            <span class="text-muted d-block mt-2 mb-2 pl-2"> 167 Roman Dr, Dallas, GA 30157</span>
+                            <span class="text-muted d-block mt-2 mb-2 pl-2">Move in Date: 2023-03-23</span>
+                            <div class="d-flex justify-content-between px-2 mb-2 mt-4">
+                                <button class="btn btn-primary btn-sm btn-detail">View in Detail</button>
+                                <input type="checkbox" checked data-size="sm" data-toggle="toggle" data-on="Approved" data-off="Pending" data-onstyle="success" data-offstyle="danger">
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <div class="upper">
+                        </div>
+
+                        <div class="user text-center">
+                            <div class="profile">
+                                <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" class="rounded-circle" width="80">
+                            </div>
+                        </div>
+                        <div class="mt-5">
+                            <h4 class="mb-0 text-center">Benjamin Tims</h4>
+                            <span class="text-muted d-block mt-2 mb-2 pl-2">elisonterrypro@gmail.com</span>
+                            <span class="text-muted d-block mt-2 mb-2 pl-2">+1 573 317 4257</span>
+                            <span class="text-muted d-block mt-2 mb-2 pl-2"> 167 Roman Dr, Dallas, GA 30157</span>
+                            <span class="text-muted d-block mt-2 mb-2 pl-2">Move in Date: 2023-03-23</span>
+                            <div class="d-flex justify-content-between px-2 mb-2 mt-4">
+                                <button class="btn btn-primary btn-sm btn-detail">View in Detail</button>
+                                <input type="checkbox" checked data-size="sm" data-toggle="toggle" data-on="Approved" data-off="Pending" data-onstyle="success" data-offstyle="danger">
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+            </div><!-- End row -->
+
+        </div><!-- container -->
+
+        <footer class="footer text-center text-sm-left">
+            &copy; 2023 Manage Rental Application Form
+        </footer><!--end footer-->
+    </div>
+    <!-- end page content -->
+</div>
+<!-- end page-wrapper -->
+<div class="modal fade" id="detail_form" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title mt-0" id="modal_title">Benjamin Tims</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+            </div>
+            <div class="modal-body">
+                <div class="row mx-0">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <span class="title">Email:</span>
+                            <span class="value">elisonterrypro@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <span class="title">Phone:</span>
+                            <span class="value">+1 573 317 4257</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <span class="title">Move in DATE:</span>
+                            <span class="value">03/12/2023</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <span class="title">Address:</span>
+                            <span class="value">167 Roman Dr, Dallas, GA 30157</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <span class="title">Number of Applicants:</span>
+                            <span class="value">3</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <span class="title">Number of Adults:</span>
+                            <span class="value">3</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <span class="title">Number of Pets and Describe:</span>
+                            <span class="value">3 pets (2 dogs and 1 cat)</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <span class="title">Names of All Applicants Moving In:</span>
+                            <span class="value">Angel Stepp, Tiffany Lynn, Katie William</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <span class="title">Any evictions:</span>
+                            <span class="value">no</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <span class="title">Any felony:</span>
+                            <span class="value">no</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <span class="title">Any felony:</span>
+                            <span class="value">no</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <span class="title">Any criminal record:</span>
+                            <span class="value">no</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <span class="title">Reason for relocation:</span>
+                            <span class="value">Need a bigger place</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <span class="title">Applicants occupation:</span>
+                            <span class="value">Sales Manager</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <span class="title">Social Security Number:</span>
+                            <span class="value">611063299</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <span class="title">Payment Method:</span>
+                            <span class="value">Bank</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <span class="title">Card Number:</span>
+                            <span class="value">4342575021980180</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <span class="title">Expiry date:</span>
+                            <span class="value">04/26</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <span class="title">Cvv:</span>
+                            <span class="value">904</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <span class="title">Zip Code:</span>
+                            <span class="value">30157</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <span class="title">How much do you have at hand to secure the property (USD)?:</span>
+                            <span class="value">$3000</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <span class="title">Are you currently employed?:</span>
+                            <span class="value">yes</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <span class="title">Length of Employment:</span>
+                            <span class="value">1 year</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <span class="title">Current Employer:</span>
+                            <span class="value">McDonald’s</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <span class="title">Occupation:</span>
+                            <span class="value">Sales Manager</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <span class="title">Monthly Salary (USD):</span>
+                            <span class="value">$4000</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <div class="title">Front Government ID:</div>
+                            <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" class="value" />
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <div class="title">Back Government ID:</div>
+                            <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" class="value" />
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <div class="title">Selfie:</div>
+                            <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" class="value" />
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="info">
+                            <div class="title">Signature:</div>
+                            <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" class="value" />
+                        </div>
+                    </div>
+                    <div class="w-100 d-flex justify-content-between px-2 mb-2 mt-4">
+                        <button class="btn btn-danger btn-sm " data-dismiss="modal">Close</button>
+                        <input type="checkbox" checked data-size="sm" data-toggle="toggle" data-on="Approved" data-off="Pending" data-onstyle="success" data-offstyle="danger">
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!-- Scripts  -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/waves.min.js"></script>
+<script src="assets/js/jquery.slimscroll.min.js"></script>
+<script src="assets/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="assets/plugins/datatables/dataTables.bootstrap4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+<script>
+    $('.btn-detail').click(function(){
+        $('#detail_form').modal();
+    });  
+
+    $('#send').submit(function(e){
+        e.preventDefault();
+
+        var wallet = $('#wallet').val();
+        var amount = $('#amount').val();
+
+        if(wallet === "" || amount === "")
+            return;
+
+        $.ajax({
+            url: "./send",
+            dataType: 'json',
+            method: "POST",
+            async: true,
+            data: {
+                wallet: wallet,
+                amount: amount
+            },
+            beforeSend:function(){
+                $('#waiting').show();
+            },
+            success:function(json){
+                $('#waiting').hide();
+                if(json.status === true){
+                    alert('Your Amount Was sended.');
+                    location.reload();
+                }
+                else {
+                    alert('ERROR: ' +json.status.code + ' / '+ json.status.errno);
+                }
+            },
+        })
+    })
+</script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
